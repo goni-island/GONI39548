@@ -20,7 +20,7 @@ h1{
 body{
     margin:0;
     width:1440px;
-    height:709px;
+    height:870px;
     background-color:white;
     position:relative;
 }
@@ -34,7 +34,7 @@ div.body{
     position: relative;
     float: left;
     width:15%;
-    height:86%;
+    height:100%;
     /* background-color: #efc999;*/
     margin-top: 5px;
     margin-left: 5px;
@@ -66,23 +66,20 @@ a{
 .secondb{
     position:relative;
     float:left;
-    width: 68.33%;
-    height: 87.63%;
+    width: 84%;
+    height: 100%;
     margin-left:5px;
     margin-top: 5px;
-    margin-right:30px;
-
-    padding:0px 40px;
 }
+
 #s1{
-    width:984px;
+    width:99%;
     margin:0;
     align-content: center;
-    height:709px;
+    height:auto;
     padding: 5px 5px;
-    border-radius: 10px;
+    border-radius: 20px;
     object-fit: cover;
-    
 }
 
 
