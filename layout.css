@@ -22,11 +22,11 @@ body{
     width:1440px;
     height:709px;
     background-color:white;
-    position:fixed;
+    position:relative;
 }
 div.body{
     display: inline-block;
-    position:fixed;
+    position:relative;
     width:100%;
     height:100%;    
 }
