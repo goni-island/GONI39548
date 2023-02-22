@@ -53,30 +53,35 @@ a{
 
 #p1 {
     display:inline-block;
-    position:relative;
     margin:0;
     padding:10px 0px;
-    font-family:'Times New Roman';
-    text-align: left;
+    font-family:Helvetica;
     color:gray;
     font-weight:bold;
 }
 #p2{ 
     display:inline-block;
-    position:relative;
     margin:5px;
-    font-family:'Times New Roman';
+    font-family:Helvetica;
     text-align: left;
     color:black;
     font-weight:bold;
 }
+
+h3{
+    font-family:Helvetica;
+    color:tomato;
+    font-weight:bold;
+    font-size:40px;
+}
+
 
 div.top{
     margin-top: 5px;
     margin-left: 5px;
     position:relative;
     width:84%;
-    height:567.69px;  
+    height:100%;  
     background-color:#EEEEEE; 
     display:inline-block;
     border-radius: 10px;
@@ -85,14 +90,27 @@ div.top{
 .t tr td{
     margin-top: 10px;
     margin-left: 5px;
-    width:400px;
-    height:523.69px;  
+    width: 240px;
+    height: 240px;
     background-color:#EEEEEE; 
     border:1px;
-    border-right:1px solid #000000;
-    /* display:inline-block; */
+    border-right:1px solid #000000; 
+    border:2px solid white; 
     position:relative;
+    padding-top:3px;
     text-align: center;
+    border-radius: 10px;
+}
+
+#s4{
+    border-radius: 10px;
+    width:540px;
+    height:540px;
+}
+#s5{
+    border-radius: 10px;
+    width:100%;
+    height:auto;
 }
 #combine{
     margin-bottom:5px;
@@ -104,26 +122,6 @@ div.top{
     color:#ffffff;
 }
 
-#s2{
-    position:relative;
-    /* margin-left:720px; */
-    width:300px;
-    height:auto;
-    align-content:center; 
-    border-radius: 10px;
-    margin-left:45px;
-}
-
-#s3{
-    position:relative;
-    /* margin-left:720px; */
-    width:296px;
-    height:auto;
-    border-radius: 10px;
-    align-items: right; 
-    margin-left:50px;
-    /* align-items: center; */
-}
 #cat{
     width:32px;
     height:32px;
@@ -135,7 +133,6 @@ div.down{
         margin-top: 15px;
         margin-left: 5px;
         width:84%;
-        height:567.69px;  
         border-radius: 10px;
         margin-left: 225px;
         text-align: center;

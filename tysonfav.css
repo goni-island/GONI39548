@@ -91,7 +91,7 @@ div.top{
     height:auto;
     align-content:center; 
     border-radius: 10px;
-    margin-left:45px;
+    margin:0;
 }
 
 #cat{
@@ -115,7 +115,7 @@ div.down{
     margin:0;
     padding:10px 0px;
     font-family:'Times New Roman';
-    color:red;
+    color:gray;
     font-weight:bold;
     font-size: 15px;
 }
